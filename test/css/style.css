@@ -775,6 +775,10 @@ nav.navbar {
 }
 
 
+/*.section a:hover{
+ 
+  background-color:  #03e9f4;
+}*/
 
 .section button:hover
 {
@@ -790,6 +794,24 @@ nav.navbar {
 {
   background-color:green;
   transition: 0.5s;
+}
+
+.section1 p{
+  animation: animate 10s ease-in 1;
+}
+
+@keyframes animate{
+  0%
+  {
+    transform: scale(1);
+    transform-origin: left;
+  }
+  50%
+  {
+    transform: scale(0);
+    transform-origin: left;
+  }
+  
 }
 
 
