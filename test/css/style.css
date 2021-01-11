@@ -797,7 +797,7 @@ nav.navbar {
 }
 
 .section1 p{
-  animation: animate 10s ease-in 1;
+  animation: animate 20s ease-in 1;
 }
 
 @keyframes animate{
