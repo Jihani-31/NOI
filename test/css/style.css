@@ -108,7 +108,8 @@ nav.navbar {
 }
 
 .img-container:hover .sponsor-img {
-  opacity: 0.2 !important;
+  transition: 0.5s ease;
+   z-index: 1000;
 }
  
 .middle {
@@ -746,7 +747,8 @@ nav.navbar {
 }
 
 .section .column img:hover{
-  filter: blur(0px);
+  transform: scale(1.4);
+  z-index: 1000;
 
 }
 
@@ -772,5 +774,22 @@ nav.navbar {
   background-color: black;
 }
 
+
+
+.section button:hover
+{
+  background-color: #03e9f4;
+  box-shadow: 0 0 5px #03e9f4,
+  0 0 25px #03e9f4,
+  0 0 50px #03e9f4,
+  0 0 200px #03e9f4
+  ;
+}
+
+.section button
+{
+  background-color:green;
+  transition: 0.5s;
+}
 
 
